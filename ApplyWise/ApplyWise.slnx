@@ -1,1 +1,17 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="ApplyWise.Api/ApplyWise.Api.csproj" />
+    <Project Path="ApplyWise.AppHost/ApplyWise.AppHost.csproj" />
+    <Project Path="ApplyWise.Application/ApplyWise.Application.csproj" />
+    <Project Path="ApplyWise.Domain/ApplyWise.Domain.csproj" />
+    <Project Path="ApplyWise.Functions/ApplyWise.Functions.csproj" />
+    <Project Path="ApplyWise.Infrastructure/ApplyWise.Infrastructure.csproj" />
+    <Project Path="ApplyWise.ServiceDefaults/ApplyWise.ServiceDefaults.csproj" />
+    <Project Path="ApplyWise.Web/ApplyWise.Web.csproj" />
+    <Project Path="ApplyWise.Worker/ApplyWise.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="ApplyWise.IntegrationTests/ApplyWise.IntegrationTests.csproj" />
+    <Project Path="ApplyWise.UnitTests/ApplyWise.UnitTests.csproj" />
+  </Folder>
+</Solution>
