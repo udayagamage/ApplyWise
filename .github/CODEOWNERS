@@ -1,1 +1,11 @@
+# Default owner for everything
 * @udayagamage
+
+# Repo settings, PR template, CODEOWNERS and GitHub Actions workflows
+/.github/ @udayagamage
+
+# Infrastructure as code (Bicep)
+/infra/ @udayagamage
+
+# Architecture decision records
+/docs/adr/ @udayagamage
