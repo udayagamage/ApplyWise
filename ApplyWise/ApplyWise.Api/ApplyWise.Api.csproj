@@ -8,6 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.*">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplyWise.Application\ApplyWise.Application.csproj" />
+    <ProjectReference Include="..\ApplyWise.Infrastructure\ApplyWise.Infrastructure.csproj" />
+    <ProjectReference Include="..\ApplyWise.ServiceDefaults\ApplyWise.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>
